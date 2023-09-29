@@ -10,6 +10,7 @@ export default function Registro({ onAlert }) {
       <SocialButton button={'fa-facebook'} />
       <SocialButton button={'fa-github'} />
       <SocialButton button={'fa-linkedin'} />
+      <SocialButton button={'fa-twitter'} />
       <p>O usa tu email para registrarte.</p>
       <Formulario addAlert={onAlert} />
     </>

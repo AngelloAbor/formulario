@@ -6,6 +6,7 @@ import { useState } from 'react';
 function Formulario({ addAlert }) {
   const [inputs, setInputs] = useState({
     nombre: '',
+    apellido:'',
     email: '',
     password: '',
     password1: '',
